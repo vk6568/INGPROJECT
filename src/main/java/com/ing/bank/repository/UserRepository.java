@@ -15,4 +15,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 	@Query("select c.accountNo from User c where accountNo!=:accountnumber")
 	List<Integer> getAccountNumbers(@Param("accountnumber") Long accountNo);
 
+User findByaccountNo(Long accountNumber);
+
 }

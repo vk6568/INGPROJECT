@@ -16,6 +16,10 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.exclusions> **/UserDto*.java</sonar.exclusions>
+			<sonar.exclusions> **/User*.java</sonar.exclusions>
+			<sonar.exclusions> **/FundTransferDto*.java</sonar.exclusions>
+			<sonar.exclusions> **/FundTransfer*.java</sonar.exclusions>
 	</properties>
 
 	<dependencies>

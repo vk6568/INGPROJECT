@@ -5,8 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ing.bank.entity.FundTransfer;
-import com.ing.bank.entity.User;
+
 import com.ing.bank.repository.UserRepository;
 
 @Service
